@@ -1,42 +1,35 @@
 # Final Project - BeautifulSoup Documentation Analytics System
 
 ## Project Scenario
-This project builds a Python-based analytics system that collects, parses, extracts, analyzes, and visualizes data from the official BeautifulSoup documentation page:
+This project is developed by **Thành viên 1: HTML Collector & Section Extractor**.
+
+The team builds a Python-based analytics system that collects, parses, and extracts data from the official BeautifulSoup documentation page:
 
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
-The project is designed to run in **Jupyter Notebook**.
+## Main Features (Thành viên 1)
 
-## Main Features
-
-1. Download the BeautifulSoup documentation page using `requests`.
-2. Save raw HTML into `data/raw/beautifulsoup_doc.html`.
-3. Parse HTML content using `BeautifulSoup`.
-4. Extract documentation sections into `data/processed/sections.csv`.
-5. Extract hyperlinks into `data/processed/links.csv`.
-6. Extract code examples into `data/processed/code_examples.csv`.
-7. Analyze data using `Pandas` and `NumPy`.
-8. Create charts using `Matplotlib`.
-9. Prepare final report content inside the notebook.
+1. **Feature 1 — Web Page Collector**: Send HTTP request to the target URL, check status code, and save raw HTML to `data/raw/beautifulsoup_doc.html`.
+2. **Feature 2 — HTML Parser**: Parse the HTML using BeautifulSoup.
+3. **Feature 3 — Section Extractor**: Extract all documentation sections, compute word count, code block count, and link count per section, and save to `data/processed/sections.csv`.
 
 ## Project Structure
 
 ```text
-FinalProject/
+FinalProjectPDS301m/
+├── src/
+│   ├── __init__.py
+│   ├── collector.py      # Feature 1: Web Page Collector
+│   ├── parser.py        # Feature 2: HTML Parser
+│   ├── extractor.py     # Feature 3: Section Extractor
+│   └── main.py          # Orchestrates Features 1-3
 ├── data/
 │   ├── raw/
 │   │   └── beautifulsoup_doc.html
 │   └── processed/
-│       ├── sections.csv
-│       ├── links.csv
-│       └── code_examples.csv
-├── output/
-│   └── charts/
-│       ├── word_count_by_section.png
-│       ├── code_examples_by_section.png
-│       ├── link_type_distribution.png
-│       └── code_linecount_hist.png
-├── FinalProject_BeautifulSoup_Analysis.ipynb
+│       └── sections.csv
+├── notebooks/
+│   └── FinalProject_BeautifulSoup_Analysis.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -44,39 +37,29 @@ FinalProject/
 
 ## How to Run
 
-1. Install dependencies:
+### Option 1: Run as Python script (headless)
 
 ```bash
 pip install -r requirements.txt
+python src/main.py
 ```
 
-2. Open Jupyter Notebook:
+### Option 2: Run as Jupyter Notebook (interactive)
 
 ```bash
+pip install -r requirements.txt
 jupyter notebook
 ```
 
-3. Open this file:
-
-```text
-FinalProject_BeautifulSoup_Analysis.ipynb
-```
-
-4. Run all cells from top to bottom.
+Then open `notebooks/FinalProject_BeautifulSoup_Analysis.ipynb` and run all cells from top to bottom.
 
 ## Output Files
 
-After running the notebook, the following files will be generated:
+After running the pipeline, the following files will be generated:
 
 - `data/raw/beautifulsoup_doc.html`
 - `data/processed/sections.csv`
-- `data/processed/links.csv`
-- `data/processed/code_examples.csv`
-- `output/charts/word_count_by_section.png`
-- `output/charts/code_examples_by_section.png`
-- `output/charts/link_type_distribution.png`
-- `output/charts/code_linecount_hist.png`
 
 ## Notes
 
-The final analytical report can be written directly in the notebook using Markdown cells and exported to PDF.
+This is the work of **Thành viên 1**. Other team members will build upon these outputs.

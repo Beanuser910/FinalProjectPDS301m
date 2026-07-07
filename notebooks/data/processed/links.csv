@@ -1,0 +1,805 @@
+﻿link_text,href,link_type,section_title,absolute_href
+Beautiful Soup,http://www.crummy.com/software/BeautifulSoup/,documentation_link,Beautiful Soup Documentation ¶,http://www.crummy.com/software/BeautifulSoup/
+Beautiful Soup 3,http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html,documentation_link,Beautiful Soup Documentation ¶,http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html
+Porting code to BS4,#porting-code-to-bs4,internal_anchor,Beautiful Soup Documentation ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#porting-code-to-bs4
+这篇文档当然还有中文版.,https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/,documentation_link,Beautiful Soup Documentation ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/
+外部リンク,http://kondou.com/BS4/,external_link,Beautiful Soup Documentation ¶,http://kondou.com/BS4/
+이 문서는 한국어 번역도 가능합니다.,https://www.crummy.com/software/BeautifulSoup/bs4/doc.ko/,documentation_link,Beautiful Soup Documentation ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc.ko/
+Este documento também está disponível em Português do Brasil.,https://www.crummy.com/software/BeautifulSoup/bs4/doc.ptbr,documentation_link,Beautiful Soup Documentation ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc.ptbr
+Este documento también está disponible en una traducción al español.,https://www.crummy.com/software/BeautifulSoup/bs4/doc.es/,documentation_link,Beautiful Soup Documentation ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc.es/
+Эта документация доступна на русском языке.,https://www.crummy.com/software/BeautifulSoup/bs4/doc.ru/,documentation_link,Beautiful Soup Documentation ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc.ru/
+¶,#getting-help,internal_anchor,Beautiful Soup Documentation ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#getting-help
+send mail to the discussion group,https://groups.google.com/forum/?fromgroups#!forum/beautifulsoup,documentation_link,Beautiful Soup Documentation ¶,https://groups.google.com/forum/?fromgroups#!forum/beautifulsoup
+what the diagnose() function says,#diagnose,internal_anchor,Beautiful Soup Documentation ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#diagnose
+¶,#api-documentation,internal_anchor,Beautiful Soup Documentation ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#api-documentation
+traditional API documentation,api/modules.html,empty_or_invalid,Beautiful Soup Documentation ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/api/modules.html
+send mail to the discussion group,https://groups.google.com/forum/?fromgroups#!forum/beautifulsoup,documentation_link,Getting help ¶,https://groups.google.com/forum/?fromgroups#!forum/beautifulsoup
+what the diagnose() function says,#diagnose,internal_anchor,Getting help ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#diagnose
+¶,#api-documentation,internal_anchor,Getting help ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#api-documentation
+traditional API documentation,api/modules.html,empty_or_invalid,Getting help ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/api/modules.html
+traditional API documentation,api/modules.html,empty_or_invalid,API documentation ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/api/modules.html
+Beautiful Soup 3,http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html,documentation_link,Installing Beautiful Soup ¶,http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html
+download the Beautiful Soup 4 source tarball,http://www.crummy.com/software/BeautifulSoup/download/4.x/,documentation_link,Installing Beautiful Soup ¶,http://www.crummy.com/software/BeautifulSoup/download/4.x/
+¶,#installing-a-parser,internal_anchor,Installing Beautiful Soup ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
+lxml parser,http://lxml.de/,external_link,Installing Beautiful Soup ¶,http://lxml.de/
+html5lib parser,http://code.google.com/p/html5lib/,external_link,Installing Beautiful Soup ¶,http://code.google.com/p/html5lib/
+Differences between parsers,#differences-between-parsers,internal_anchor,Installing Beautiful Soup ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
+lxml parser,http://lxml.de/,external_link,Installing a parser ¶,http://lxml.de/
+html5lib parser,http://code.google.com/p/html5lib/,external_link,Installing a parser ¶,http://code.google.com/p/html5lib/
+Differences between parsers,#differences-between-parsers,internal_anchor,Installing a parser ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
+Parsing XML,#id15,internal_anchor,Making the soup ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id15
+Tag,#Tag,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Comment,#Comment,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+¶,#Tag,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Navigating the tree,#navigating-the-tree,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-the-tree
+Searching the tree,#searching-the-tree,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+¶,#Tag.name,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag.name
+¶,#Tag.attrs,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag.attrs
+¶,#multi-valued-attributes,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#multi-valued-attributes
+¶,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Navigating the tree,#navigating-the-tree,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-the-tree
+Searching the tree,#searching-the-tree,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+replace_with(),#replace-with,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#replace-with
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Navigating the tree,#navigating-the-tree,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-the-tree
+Searching the tree,#searching-the-tree,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Tag,#Tag,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Navigating the tree,#navigating-the-tree,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-the-tree
+Searching the tree,#searching-the-tree,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+Modifying the tree,#modifying-the-tree,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#modifying-the-tree
+Tag,#Tag,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+¶,#special-strings,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#special-strings
+Tag,#Tag,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Comment,#Comment,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+¶,#Comment,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+Comment,#Comment,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Comment,#Comment,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+¶,#for-html-documents,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#for-html-documents
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Stylesheet,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Stylesheet
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Script,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Script
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Template,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Template
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#for-xml-documents,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#for-xml-documents
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Comment,#Comment,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Declaration,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Declaration
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+declaration,https://www.w3.org/TR/REC-xml/#sec-prolog-dtd,external_link,Kinds of objects ¶,https://www.w3.org/TR/REC-xml/#sec-prolog-dtd
+¶,#Doctype,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Doctype
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+document type declaration,https://www.w3.org/TR/REC-xml/#dt-doctype,external_link,Kinds of objects ¶,https://www.w3.org/TR/REC-xml/#dt-doctype
+¶,#CData,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#CData
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+CData section,https://www.w3.org/TR/REC-xml/#sec-cdata-sect,external_link,Kinds of objects ¶,https://www.w3.org/TR/REC-xml/#sec-cdata-sect
+¶,#ProcessingInstruction,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ProcessingInstruction
+NavigableString,#NavigableString,internal_anchor,Kinds of objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+XML processing instruction,https://www.w3.org/TR/REC-xml/#sec-pi,external_link,Kinds of objects ¶,https://www.w3.org/TR/REC-xml/#sec-pi
+Tag,#Tag,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Comment,#Comment,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+¶,#Comment,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+Comment,#Comment,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Comment,#Comment,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+¶,#for-html-documents,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#for-html-documents
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Stylesheet,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Stylesheet
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Script,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Script
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Template,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Template
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#for-xml-documents,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#for-xml-documents
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Comment,#Comment,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Declaration,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Declaration
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+declaration,https://www.w3.org/TR/REC-xml/#sec-prolog-dtd,external_link,Special strings ¶,https://www.w3.org/TR/REC-xml/#sec-prolog-dtd
+¶,#Doctype,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Doctype
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+document type declaration,https://www.w3.org/TR/REC-xml/#dt-doctype,external_link,Special strings ¶,https://www.w3.org/TR/REC-xml/#dt-doctype
+¶,#CData,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#CData
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+CData section,https://www.w3.org/TR/REC-xml/#sec-cdata-sect,external_link,Special strings ¶,https://www.w3.org/TR/REC-xml/#sec-cdata-sect
+¶,#ProcessingInstruction,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ProcessingInstruction
+NavigableString,#NavigableString,internal_anchor,Special strings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+XML processing instruction,https://www.w3.org/TR/REC-xml/#sec-pi,external_link,Special strings ¶,https://www.w3.org/TR/REC-xml/#sec-pi
+NavigableString,#NavigableString,internal_anchor,For HTML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Stylesheet,internal_anchor,For HTML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Stylesheet
+NavigableString,#NavigableString,internal_anchor,For HTML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Script,internal_anchor,For HTML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Script
+NavigableString,#NavigableString,internal_anchor,For HTML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Template,internal_anchor,For HTML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Template
+NavigableString,#NavigableString,internal_anchor,For HTML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+NavigableString,#NavigableString,internal_anchor,For XML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Comment,#Comment,internal_anchor,For XML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+NavigableString,#NavigableString,internal_anchor,For XML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#Declaration,internal_anchor,For XML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Declaration
+NavigableString,#NavigableString,internal_anchor,For XML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+declaration,https://www.w3.org/TR/REC-xml/#sec-prolog-dtd,external_link,For XML documents ¶,https://www.w3.org/TR/REC-xml/#sec-prolog-dtd
+¶,#Doctype,internal_anchor,For XML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Doctype
+NavigableString,#NavigableString,internal_anchor,For XML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+document type declaration,https://www.w3.org/TR/REC-xml/#dt-doctype,external_link,For XML documents ¶,https://www.w3.org/TR/REC-xml/#dt-doctype
+¶,#CData,internal_anchor,For XML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#CData
+NavigableString,#NavigableString,internal_anchor,For XML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+CData section,https://www.w3.org/TR/REC-xml/#sec-cdata-sect,external_link,For XML documents ¶,https://www.w3.org/TR/REC-xml/#sec-cdata-sect
+¶,#ProcessingInstruction,internal_anchor,For XML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ProcessingInstruction
+NavigableString,#NavigableString,internal_anchor,For XML documents ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+XML processing instruction,https://www.w3.org/TR/REC-xml/#sec-pi,external_link,For XML documents ¶,https://www.w3.org/TR/REC-xml/#sec-pi
+¶,#going-down,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#going-down
+¶,#navigating-using-tag-names,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-using-tag-names
+Searching the tree,#searching-the-tree,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+¶,#contents-and-children,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#contents-and-children
+Modifying the tree,#modifying-the-tree,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#modifying-the-tree
+¶,#descendants,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#descendants
+¶,#string,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
+NavigableString,#NavigableString,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#strings-and-stripped-strings,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#strings-and-stripped-strings
+¶,#going-up,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#going-up
+¶,#parent,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parent
+¶,#parents,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parents
+¶,#self-and-parents,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#self-and-parents
+¶,#going-sideways,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#going-sideways
+¶,#next-sibling-and-previous-sibling,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-sibling-and-previous-sibling
+¶,#next-siblings-and-previous-siblings,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-siblings-and-previous-siblings
+The keyword arguments,#kwargs,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+¶,#going-back-and-forth,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#going-back-and-forth
+¶,#next-element-and-previous-element,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-element-and-previous-element
+¶,#next-elements-and-previous-elements,internal_anchor,Navigating the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-elements-and-previous-elements
+¶,#navigating-using-tag-names,internal_anchor,Going down ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-using-tag-names
+Searching the tree,#searching-the-tree,internal_anchor,Going down ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+¶,#contents-and-children,internal_anchor,Going down ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#contents-and-children
+Modifying the tree,#modifying-the-tree,internal_anchor,Going down ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#modifying-the-tree
+¶,#descendants,internal_anchor,Going down ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#descendants
+¶,#string,internal_anchor,Going down ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
+NavigableString,#NavigableString,internal_anchor,Going down ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#strings-and-stripped-strings,internal_anchor,Going down ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#strings-and-stripped-strings
+Searching the tree,#searching-the-tree,internal_anchor,Navigating using tag names ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+Modifying the tree,#modifying-the-tree,internal_anchor,.contents and .children ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#modifying-the-tree
+NavigableString,#NavigableString,internal_anchor,.string ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#parent,internal_anchor,Going up ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parent
+¶,#parents,internal_anchor,Going up ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parents
+¶,#self-and-parents,internal_anchor,Going up ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#self-and-parents
+¶,#next-sibling-and-previous-sibling,internal_anchor,Going sideways ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-sibling-and-previous-sibling
+¶,#next-siblings-and-previous-siblings,internal_anchor,Going sideways ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-siblings-and-previous-siblings
+The keyword arguments,#kwargs,internal_anchor,Going sideways ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+The keyword arguments,#kwargs,internal_anchor,.next_siblings and .previous_siblings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+¶,#next-element-and-previous-element,internal_anchor,Going back and forth ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-element-and-previous-element
+¶,#next-elements-and-previous-elements,internal_anchor,Going back and forth ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-elements-and-previous-elements
+¶,#kinds-of-filters,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kinds-of-filters
+¶,#a-string,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+¶,#a-regular-expression,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+¶,#true,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#true
+¶,#a-function,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+¶,#a-list,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+¶,#find-all,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-all
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+recursive,#recursive,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#recursive
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+Kinds of filters,#kinds-of-filters,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kinds-of-filters
+¶,#the-name-argument,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-name-argument
+Kinds of filters,#kinds-of-filters,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kinds-of-filters
+a string,#a-string,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+a regular expression,#a-regular-expression,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+a list,#a-list,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+a function,#a-function,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+the value True,#the-value-true,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-value-true
+¶,#the-keyword-arguments,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-keyword-arguments
+a string,#a-string,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+a regular expression,#a-regular-expression,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+a list,#a-list,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+a function,#a-function,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+the value True,#the-value-true,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-value-true
+¶,#searching-by-css-class,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-by-css-class
+Remember,#multivalue,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#multivalue
+described here,#css-selectors,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#css-selectors
+¶,#the-string-argument,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-string-argument
+a string,#a-string,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+a regular expression,#a-regular-expression,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+a function,#a-function,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+a list,#a-list,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+the value True,#the-value-true,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-value-true
+¶,#the-limit-argument,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-limit-argument
+¶,#the-recursive-argument,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-recursive-argument
+¶,#calling-a-tag-is-like-calling-find-all,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#calling-a-tag-is-like-calling-find-all
+Tag,#Tag,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+¶,#find,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+recursive,#recursive,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#recursive
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+Navigating using tag names,#navigating-using-tag-names,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-using-tag-names
+¶,#find-parents-and-find-parent,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-parents-and-find-parent
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+.parent,#parent,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parent
+.parents,#parents,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parents
+¶,#find-next-siblings-and-find-next-sibling,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-next-siblings-and-find-next-sibling
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+.next_siblings,#sibling-generators,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#sibling-generators
+¶,#find-previous-siblings-and-find-previous-sibling,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-previous-siblings-and-find-previous-sibling
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+.previous_siblings,#sibling-generators,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#sibling-generators
+¶,#find-all-next-and-find-next,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-all-next-and-find-next
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+.next_elements,#element-generators,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#element-generators
+document order,#document-order,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#document-order
+¶,#find-all-previous-and-find-previous,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-all-previous-and-find-previous
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+name,#name,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+.previous_elements,#element-generators,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#element-generators
+document order,#document-order,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#document-order
+¶,#css-selectors-through-the-css-property,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#css-selectors-through-the-css-property
+Tag,#Tag,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Soup Sieve,https://facelessuser.github.io/soupsieve/,external_link,Searching the tree ¶,https://facelessuser.github.io/soupsieve/
+all the currently supported CSS selectors,https://facelessuser.github.io/soupsieve/selectors/,external_link,Searching the tree ¶,https://facelessuser.github.io/soupsieve/selectors/
+Tag,#Tag,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+¶,#advanced-soup-sieve-features,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#advanced-soup-sieve-features
+Tag,#Tag,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+the Soup Sieve documentation,https://facelessuser.github.io/soupsieve/,external_link,Searching the tree ¶,https://facelessuser.github.io/soupsieve/
+Tag,#Tag,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+¶,#namespaces-in-css-selectors,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#namespaces-in-css-selectors
+¶,#history-of-css-selector-support,internal_anchor,Searching the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#history-of-css-selector-support
+¶,#a-string,internal_anchor,Kinds of filters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+¶,#a-regular-expression,internal_anchor,Kinds of filters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+¶,#true,internal_anchor,Kinds of filters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#true
+¶,#a-function,internal_anchor,Kinds of filters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+¶,#a-list,internal_anchor,Kinds of filters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+name,#name,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+recursive,#recursive,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#recursive
+string,#id11,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+Kinds of filters,#kinds-of-filters,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kinds-of-filters
+¶,#the-name-argument,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-name-argument
+Kinds of filters,#kinds-of-filters,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kinds-of-filters
+a string,#a-string,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+a regular expression,#a-regular-expression,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+a list,#a-list,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+a function,#a-function,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+the value True,#the-value-true,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-value-true
+¶,#the-keyword-arguments,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-keyword-arguments
+a string,#a-string,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+a regular expression,#a-regular-expression,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+a list,#a-list,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+a function,#a-function,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+the value True,#the-value-true,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-value-true
+¶,#searching-by-css-class,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-by-css-class
+Remember,#multivalue,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#multivalue
+described here,#css-selectors,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#css-selectors
+¶,#the-string-argument,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-string-argument
+a string,#a-string,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+a regular expression,#a-regular-expression,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+a function,#a-function,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+a list,#a-list,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+the value True,#the-value-true,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-value-true
+¶,#the-limit-argument,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-limit-argument
+¶,#the-recursive-argument,internal_anchor,find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-recursive-argument
+Kinds of filters,#kinds-of-filters,internal_anchor,The name argument ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kinds-of-filters
+a string,#a-string,internal_anchor,The name argument ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+a regular expression,#a-regular-expression,internal_anchor,The name argument ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+a list,#a-list,internal_anchor,The name argument ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+a function,#a-function,internal_anchor,The name argument ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+the value True,#the-value-true,internal_anchor,The name argument ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-value-true
+a string,#a-string,internal_anchor,The keyword arguments ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+a regular expression,#a-regular-expression,internal_anchor,The keyword arguments ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+a list,#a-list,internal_anchor,The keyword arguments ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+a function,#a-function,internal_anchor,The keyword arguments ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+the value True,#the-value-true,internal_anchor,The keyword arguments ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-value-true
+Remember,#multivalue,internal_anchor,Searching by CSS class ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#multivalue
+described here,#css-selectors,internal_anchor,Searching by CSS class ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#css-selectors
+a string,#a-string,internal_anchor,The string argument ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+a regular expression,#a-regular-expression,internal_anchor,The string argument ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+a function,#a-function,internal_anchor,The string argument ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+a list,#a-list,internal_anchor,The string argument ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+the value True,#the-value-true,internal_anchor,The string argument ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-value-true
+Tag,#Tag,internal_anchor,Calling a tag is like calling find_all() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+name,#name,internal_anchor,find() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+recursive,#recursive,internal_anchor,find() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#recursive
+string,#id11,internal_anchor,find() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,find() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+Navigating using tag names,#navigating-using-tag-names,internal_anchor,find() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-using-tag-names
+name,#name,internal_anchor,find_parents() and find_parent() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find_parents() and find_parent() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,find_parents() and find_parent() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,find_parents() and find_parent() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,find_parents() and find_parent() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+name,#name,internal_anchor,find_parents() and find_parent() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find_parents() and find_parent() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,find_parents() and find_parent() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,find_parents() and find_parent() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+.parent,#parent,internal_anchor,find_parents() and find_parent() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parent
+.parents,#parents,internal_anchor,find_parents() and find_parent() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parents
+name,#name,internal_anchor,find_next_siblings() and find_next_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find_next_siblings() and find_next_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,find_next_siblings() and find_next_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,find_next_siblings() and find_next_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,find_next_siblings() and find_next_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+name,#name,internal_anchor,find_next_siblings() and find_next_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find_next_siblings() and find_next_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,find_next_siblings() and find_next_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,find_next_siblings() and find_next_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+.next_siblings,#sibling-generators,internal_anchor,find_next_siblings() and find_next_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#sibling-generators
+name,#name,internal_anchor,find_previous_siblings() and find_previous_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find_previous_siblings() and find_previous_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,find_previous_siblings() and find_previous_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,find_previous_siblings() and find_previous_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,find_previous_siblings() and find_previous_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+name,#name,internal_anchor,find_previous_siblings() and find_previous_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find_previous_siblings() and find_previous_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,find_previous_siblings() and find_previous_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,find_previous_siblings() and find_previous_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+.previous_siblings,#sibling-generators,internal_anchor,find_previous_siblings() and find_previous_sibling() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#sibling-generators
+name,#name,internal_anchor,find_all_next() and find_next() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find_all_next() and find_next() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,find_all_next() and find_next() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,find_all_next() and find_next() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,find_all_next() and find_next() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+name,#name,internal_anchor,find_all_next() and find_next() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find_all_next() and find_next() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,find_all_next() and find_next() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,find_all_next() and find_next() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+.next_elements,#element-generators,internal_anchor,find_all_next() and find_next() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#element-generators
+document order,#document-order,internal_anchor,find_all_next() and find_next() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#document-order
+name,#name,internal_anchor,find_all_previous() and find_previous() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find_all_previous() and find_previous() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,find_all_previous() and find_previous() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+limit,#limit,internal_anchor,find_all_previous() and find_previous() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#limit
+**kwargs,#kwargs,internal_anchor,find_all_previous() and find_previous() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+name,#name,internal_anchor,find_all_previous() and find_previous() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,find_all_previous() and find_previous() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,find_all_previous() and find_previous() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,find_all_previous() and find_previous() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+.previous_elements,#element-generators,internal_anchor,find_all_previous() and find_previous() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#element-generators
+document order,#document-order,internal_anchor,find_all_previous() and find_previous() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#document-order
+Tag,#Tag,internal_anchor,CSS selectors through the .css property ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Soup Sieve,https://facelessuser.github.io/soupsieve/,external_link,CSS selectors through the .css property ¶,https://facelessuser.github.io/soupsieve/
+all the currently supported CSS selectors,https://facelessuser.github.io/soupsieve/selectors/,external_link,CSS selectors through the .css property ¶,https://facelessuser.github.io/soupsieve/selectors/
+Tag,#Tag,internal_anchor,CSS selectors through the .css property ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+¶,#advanced-soup-sieve-features,internal_anchor,CSS selectors through the .css property ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#advanced-soup-sieve-features
+Tag,#Tag,internal_anchor,CSS selectors through the .css property ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+the Soup Sieve documentation,https://facelessuser.github.io/soupsieve/,external_link,CSS selectors through the .css property ¶,https://facelessuser.github.io/soupsieve/
+Tag,#Tag,internal_anchor,CSS selectors through the .css property ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,CSS selectors through the .css property ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+¶,#namespaces-in-css-selectors,internal_anchor,CSS selectors through the .css property ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#namespaces-in-css-selectors
+¶,#history-of-css-selector-support,internal_anchor,CSS selectors through the .css property ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#history-of-css-selector-support
+Tag,#Tag,internal_anchor,Advanced Soup Sieve features ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+the Soup Sieve documentation,https://facelessuser.github.io/soupsieve/,external_link,Advanced Soup Sieve features ¶,https://facelessuser.github.io/soupsieve/
+Tag,#Tag,internal_anchor,Advanced Soup Sieve features ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Advanced Soup Sieve features ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+¶,#changing-tag-names-and-attributes,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#changing-tag-names-and-attributes
+Tag.attrs,#Tag.attrs,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag.attrs
+¶,#modifying-string,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#modifying-string
+¶,#append,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#append
+¶,#extend,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#extend
+Tag,#Tag,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+¶,#navigablestring-and-new-tag,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigablestring-and-new-tag
+NavigableString,#NavigableString,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+NavigableString,#NavigableString,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#insert,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#insert
+¶,#insert-before-and-insert-after,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#insert-before-and-insert-after
+¶,#clear,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#clear
+¶,#extract,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#extract
+¶,#decompose,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#decompose
+Tag,#Tag,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#replace-with,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#replace-with
+¶,#wrap,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#wrap
+Tag,#Tag,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+¶,#unwrap,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#unwrap
+¶,#smooth,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#smooth
+NavigableString,#NavigableString,internal_anchor,Modifying the tree ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Tag.attrs,#Tag.attrs,internal_anchor,Changing tag names and attributes ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag.attrs
+Tag,#Tag,internal_anchor,extend() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,extend() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,NavigableString() and .new_tag() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+NavigableString,#NavigableString,internal_anchor,NavigableString() and .new_tag() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Tag,#Tag,internal_anchor,decompose() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,decompose() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Tag,#Tag,internal_anchor,wrap() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,smooth() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#pretty-printing,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#pretty-printing
+Tag,#Tag,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+¶,#non-pretty-printing,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#non-pretty-printing
+Tag,#Tag,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Encodings,#encodings,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#encodings
+¶,#output-formatters,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#output-formatters
+¶,#formatter-objects,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#formatter-objects
+¶,#HTMLFormatter,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#HTMLFormatter
+¶,#XMLFormatter,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#XMLFormatter
+¶,#writing-your-own-formatter,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#writing-your-own-formatter
+HTMLFormatter,#HTMLFormatter,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#HTMLFormatter
+XMLFormatter,#XMLFormatter,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#XMLFormatter
+CData,#CData,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#CData
+¶,#get-text,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#get-text
+.stripped_strings,#string-generators,internal_anchor,Output ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string-generators
+Tag,#Tag,internal_anchor,Pretty-printing ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Non-pretty printing ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Encodings,#encodings,internal_anchor,Non-pretty printing ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#encodings
+¶,#formatter-objects,internal_anchor,Output formatters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#formatter-objects
+¶,#HTMLFormatter,internal_anchor,Output formatters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#HTMLFormatter
+¶,#XMLFormatter,internal_anchor,Output formatters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#XMLFormatter
+¶,#writing-your-own-formatter,internal_anchor,Output formatters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#writing-your-own-formatter
+HTMLFormatter,#HTMLFormatter,internal_anchor,Output formatters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#HTMLFormatter
+XMLFormatter,#XMLFormatter,internal_anchor,Output formatters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#XMLFormatter
+CData,#CData,internal_anchor,Output formatters ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#CData
+¶,#HTMLFormatter,internal_anchor,Formatter objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#HTMLFormatter
+¶,#XMLFormatter,internal_anchor,Formatter objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#XMLFormatter
+HTMLFormatter,#HTMLFormatter,internal_anchor,Writing your own formatter ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#HTMLFormatter
+XMLFormatter,#XMLFormatter,internal_anchor,Writing your own formatter ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#XMLFormatter
+CData,#CData,internal_anchor,Writing your own formatter ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#CData
+.stripped_strings,#string-generators,internal_anchor,get_text() ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string-generators
+Installing a parser,#installing-a-parser,internal_anchor,Specifying the parser to use ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
+¶,#differences-between-parsers,internal_anchor,Specifying the parser to use ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
+"Unicode, Dammit",#unicode-dammit,internal_anchor,Encodings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#unicode-dammit
+¶,#output-encoding,internal_anchor,Encodings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#output-encoding
+¶,#unicode-dammit,internal_anchor,Encodings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#unicode-dammit
+¶,#smart-quotes,internal_anchor,Encodings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#smart-quotes
+¶,#inconsistent-encodings,internal_anchor,Encodings ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#inconsistent-encodings
+¶,#smart-quotes,internal_anchor,"Unicode, Dammit ¶",https://www.crummy.com/software/BeautifulSoup/bs4/doc/#smart-quotes
+¶,#inconsistent-encodings,internal_anchor,"Unicode, Dammit ¶",https://www.crummy.com/software/BeautifulSoup/bs4/doc/#inconsistent-encodings
+Tag,#Tag,internal_anchor,Line numbers ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Comparing objects for equality ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Tag,#Tag,internal_anchor,Comparing objects for equality ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Copying Beautiful Soup objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Copying Beautiful Soup objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Tag,#Tag,internal_anchor,Copying Beautiful Soup objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Copying Beautiful Soup objects ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Searching the tree,#searching-the-tree,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+¶,#custom-element-filtering,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#custom-element-filtering
+¶,#ElementFilter,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+ElementFilter,#ElementFilter,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+Tag,#Tag,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+ElementFilter,#ElementFilter,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+ElementFilter,#ElementFilter,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+Searching the tree,#searching-the-tree,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+Tag,#Tag,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+ElementFilter,#ElementFilter,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+Tag,#Tag,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#custom-element-iteration,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#custom-element-iteration
+¶,#ElementFilter.filter,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+ElementFilter,#ElementFilter,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+ElementFilter.filter(),#ElementFilter.filter,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+ElementFilter.filter(),#ElementFilter.filter,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+ElementFilter.filter(),#ElementFilter.filter,internal_anchor,Low-level search interface ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+¶,#ElementFilter,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+ElementFilter,#ElementFilter,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+Tag,#Tag,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+ElementFilter,#ElementFilter,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+ElementFilter,#ElementFilter,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+Searching the tree,#searching-the-tree,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+Tag,#Tag,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+ElementFilter,#ElementFilter,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+Tag,#Tag,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#custom-element-iteration,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#custom-element-iteration
+¶,#ElementFilter.filter,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+ElementFilter,#ElementFilter,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+ElementFilter.filter(),#ElementFilter.filter,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+ElementFilter.filter(),#ElementFilter.filter,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+ElementFilter.filter(),#ElementFilter.filter,internal_anchor,Custom element filtering ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+¶,#ElementFilter.filter,internal_anchor,Custom element iteration ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+ElementFilter,#ElementFilter,internal_anchor,Custom element iteration ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+ElementFilter.filter(),#ElementFilter.filter,internal_anchor,Custom element iteration ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+ElementFilter.filter(),#ElementFilter.filter,internal_anchor,Custom element iteration ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+ElementFilter.filter(),#ElementFilter.filter,internal_anchor,Custom element iteration ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+¶,#parsing-only-part-of-a-document,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parsing-only-part-of-a-document
+SoupStrainer,#SoupStrainer,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+¶,#SoupStrainer,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+Searching the tree,#searching-the-tree,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+name,#name,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+SoupStrainer,#SoupStrainer,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+Tag,#Tag,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+class,https://docs.python.org/3/glossary.html#term-class,external_link,Advanced parser customization ¶,https://docs.python.org/3/glossary.html#term-class
+¶,#customizing-multi-valued-attributes,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#customizing-multi-valued-attributes
+¶,#handling-duplicate-attributes,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#handling-duplicate-attributes
+¶,#instantiating-custom-subclasses,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#instantiating-custom-subclasses
+Tag,#Tag,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Tag,#Tag,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Advanced parser customization ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+SoupStrainer,#SoupStrainer,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+¶,#SoupStrainer,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+Searching the tree,#searching-the-tree,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+name,#name,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+attrs,#attrs,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attrs
+string,#id11,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+**kwargs,#kwargs,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kwargs
+SoupStrainer,#SoupStrainer,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+SoupStrainer,#SoupStrainer,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+Tag,#Tag,internal_anchor,Parsing only part of a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+class,https://docs.python.org/3/glossary.html#term-class,external_link,Parsing only part of a document ¶,https://docs.python.org/3/glossary.html#term-class
+Tag,#Tag,internal_anchor,Instantiating custom subclasses ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Instantiating custom subclasses ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Tag,#Tag,internal_anchor,Instantiating custom subclasses ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+NavigableString,#NavigableString,internal_anchor,Instantiating custom subclasses ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+¶,#diagnose,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#diagnose
+¶,#errors-when-parsing-a-document,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#errors-when-parsing-a-document
+Installing a parser,#installing-a-parser,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
+¶,#version-mismatch-problems,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#version-mismatch-problems
+¶,#parsing-xml,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parsing-xml
+have lxml installed,#parser-installation,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parser-installation
+¶,#other-parser-problems,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#other-parser-problems
+Differences between parsers,#differences-between-parsers,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
+HTML tags and attributes are case-insensitive,http://www.w3.org/TR/html5/syntax.html#syntax,external_link,Troubleshooting ¶,http://www.w3.org/TR/html5/syntax.html#syntax
+parse the document as XML.,#parsing-xml,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parsing-xml
+¶,#miscellaneous,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#miscellaneous
+this page on the Python wiki,http://wiki.python.org/moin/PrintFails,external_link,Troubleshooting ¶,http://wiki.python.org/moin/PrintFails
+¶,#improving-performance,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#improving-performance
+lxml,http://lxml.de/,external_link,Troubleshooting ¶,http://lxml.de/
+start,#parser-installation,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parser-installation
+cchardet,http://pypi.python.org/pypi/cchardet/,external_link,Troubleshooting ¶,http://pypi.python.org/pypi/cchardet/
+Parsing only part of a document,#parsing-only-part-of-a-document,internal_anchor,Troubleshooting ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parsing-only-part-of-a-document
+Installing a parser,#installing-a-parser,internal_anchor,Errors when parsing a document ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
+have lxml installed,#parser-installation,internal_anchor,Parsing XML ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parser-installation
+Differences between parsers,#differences-between-parsers,internal_anchor,Other parser problems ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
+HTML tags and attributes are case-insensitive,http://www.w3.org/TR/html5/syntax.html#syntax,external_link,Other parser problems ¶,http://www.w3.org/TR/html5/syntax.html#syntax
+parse the document as XML.,#parsing-xml,internal_anchor,Other parser problems ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parsing-xml
+this page on the Python wiki,http://wiki.python.org/moin/PrintFails,external_link,Miscellaneous ¶,http://wiki.python.org/moin/PrintFails
+lxml,http://lxml.de/,external_link,Improving Performance ¶,http://lxml.de/
+start,#parser-installation,internal_anchor,Improving Performance ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parser-installation
+cchardet,http://pypi.python.org/pypi/cchardet/,external_link,Improving Performance ¶,http://pypi.python.org/pypi/cchardet/
+Parsing only part of a document,#parsing-only-part-of-a-document,internal_anchor,Improving Performance ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parsing-only-part-of-a-document
+"a tarball of the final release, 3.2.2",https://www.crummy.com/software/BeautifulSoup/download/3.x/BeautifulSoup-3.2.2.tar.gz,documentation_link,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/download/3.x/BeautifulSoup-3.2.2.tar.gz
+The documentation for Beautiful Soup 3 is archived online,http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html,documentation_link,Beautiful Soup 3 ¶,http://www.crummy.com/software/BeautifulSoup/bs3/documentation.html
+¶,#porting-code-to-bs4,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#porting-code-to-bs4
+PEP 8 compliance,http://www.python.org/dev/peps/pep-0008/,external_link,Beautiful Soup 3 ¶,http://www.python.org/dev/peps/pep-0008/
+¶,#you-need-a-parser,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#you-need-a-parser
+Installing a parser,#installing-a-parser,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
+¶,#property-names,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#property-names
+¶,#generators,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#generators
+¶,#xml,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#xml
+¶,#entities,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#entities
+"Unicode, Dammit",#unicode-dammit,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#unicode-dammit
+output formatter,#output-formatters,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#output-formatters
+¶,#id17,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id17
+Tag.string,#string,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
+Multi-valued attributes,#multi-valued-attributes,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#multi-valued-attributes
+Tag,#Tag,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+string,#id11,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+name,#name,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+Tag.string,#string,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
+string,#id11,internal_anchor,Beautiful Soup 3 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+PEP 8 compliance,http://www.python.org/dev/peps/pep-0008/,external_link,Porting code to BS4 ¶,http://www.python.org/dev/peps/pep-0008/
+¶,#you-need-a-parser,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#you-need-a-parser
+Installing a parser,#installing-a-parser,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
+¶,#property-names,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#property-names
+¶,#generators,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#generators
+¶,#xml,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#xml
+¶,#entities,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#entities
+"Unicode, Dammit",#unicode-dammit,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#unicode-dammit
+output formatter,#output-formatters,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#output-formatters
+¶,#id17,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id17
+Tag.string,#string,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
+Multi-valued attributes,#multi-valued-attributes,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#multi-valued-attributes
+Tag,#Tag,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+string,#id11,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+name,#name,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+Tag.string,#string,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
+string,#id11,internal_anchor,Porting code to BS4 ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+Installing a parser,#installing-a-parser,internal_anchor,You need a parser ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
+"Unicode, Dammit",#unicode-dammit,internal_anchor,Entities ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#unicode-dammit
+output formatter,#output-formatters,internal_anchor,Entities ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#output-formatters
+Tag.string,#string,internal_anchor,Miscellaneous ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
+Multi-valued attributes,#multi-valued-attributes,internal_anchor,Miscellaneous ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#multi-valued-attributes
+Tag,#Tag,internal_anchor,Miscellaneous ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Miscellaneous ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag,#Tag,internal_anchor,Miscellaneous ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+string,#id11,internal_anchor,Miscellaneous ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+name,#name,internal_anchor,Miscellaneous ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#name
+Tag.string,#string,internal_anchor,Miscellaneous ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
+string,#id11,internal_anchor,Miscellaneous ¶,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id11
+Beautiful Soup Documentation,#,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+Getting help,#getting-help,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#getting-help
+API documentation,#api-documentation,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#api-documentation
+Quick Start,#quick-start,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start
+Installing Beautiful Soup,#installing-beautiful-soup,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup
+Installing a parser,#installing-a-parser,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
+Making the soup,#making-the-soup,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#making-the-soup
+Kinds of objects,#kinds-of-objects,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kinds-of-objects
+Tag,#Tag,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag
+Tag.name,#Tag.name,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag.name
+Tag.attrs,#Tag.attrs,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Tag.attrs
+NavigableString,#NavigableString,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#NavigableString
+Special strings,#special-strings,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#special-strings
+Comment,#Comment,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Comment
+For HTML documents,#for-html-documents,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#for-html-documents
+Stylesheet,#Stylesheet,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Stylesheet
+Script,#Script,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Script
+Template,#Template,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Template
+For XML documents,#for-xml-documents,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#for-xml-documents
+Declaration,#Declaration,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Declaration
+Doctype,#Doctype,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#Doctype
+CData,#CData,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#CData
+ProcessingInstruction,#ProcessingInstruction,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ProcessingInstruction
+Navigating the tree,#navigating-the-tree,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-the-tree
+Going down,#going-down,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#going-down
+Navigating using tag names,#navigating-using-tag-names,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-using-tag-names
+.contents and .children,#contents-and-children,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#contents-and-children
+.descendants,#descendants,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#descendants
+.string,#string,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#string
+.strings and stripped_strings,#strings-and-stripped-strings,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#strings-and-stripped-strings
+Going up,#going-up,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#going-up
+.parent,#parent,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parent
+.parents,#parents,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parents
+.self_and_parents,#self-and-parents,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#self-and-parents
+Going sideways,#going-sideways,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#going-sideways
+.next_sibling and .previous_sibling,#next-sibling-and-previous-sibling,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-sibling-and-previous-sibling
+.next_siblings and .previous_siblings,#next-siblings-and-previous-siblings,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-siblings-and-previous-siblings
+Going back and forth,#going-back-and-forth,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#going-back-and-forth
+.next_element and .previous_element,#next-element-and-previous-element,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-element-and-previous-element
+.next_elements and .previous_elements,#next-elements-and-previous-elements,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#next-elements-and-previous-elements
+Searching the tree,#searching-the-tree,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+Kinds of filters,#kinds-of-filters,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kinds-of-filters
+A string,#a-string,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-string
+A regular expression,#a-regular-expression,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-regular-expression
+True,#true,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#true
+A function,#a-function,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-function
+A list,#a-list,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#a-list
+find_all(),#find-all,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-all
+The name argument,#the-name-argument,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-name-argument
+The keyword arguments,#the-keyword-arguments,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-keyword-arguments
+Searching by CSS class,#searching-by-css-class,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-by-css-class
+The string argument,#the-string-argument,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-string-argument
+The limit argument,#the-limit-argument,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-limit-argument
+The recursive argument,#the-recursive-argument,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#the-recursive-argument
+Calling a tag is like calling find_all(),#calling-a-tag-is-like-calling-find-all,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#calling-a-tag-is-like-calling-find-all
+find(),#find,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find
+find_parents() and find_parent(),#find-parents-and-find-parent,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-parents-and-find-parent
+find_next_siblings() and find_next_sibling(),#find-next-siblings-and-find-next-sibling,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-next-siblings-and-find-next-sibling
+find_previous_siblings() and find_previous_sibling(),#find-previous-siblings-and-find-previous-sibling,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-previous-siblings-and-find-previous-sibling
+find_all_next() and find_next(),#find-all-next-and-find-next,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-all-next-and-find-next
+find_all_previous() and find_previous(),#find-all-previous-and-find-previous,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find-all-previous-and-find-previous
+CSS selectors through the .css property,#css-selectors-through-the-css-property,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#css-selectors-through-the-css-property
+Advanced Soup Sieve features,#advanced-soup-sieve-features,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#advanced-soup-sieve-features
+Namespaces in CSS selectors,#namespaces-in-css-selectors,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#namespaces-in-css-selectors
+History of CSS selector support,#history-of-css-selector-support,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#history-of-css-selector-support
+Modifying the tree,#modifying-the-tree,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#modifying-the-tree
+Changing tag names and attributes,#changing-tag-names-and-attributes,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#changing-tag-names-and-attributes
+Modifying .string,#modifying-string,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#modifying-string
+append(),#append,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#append
+extend(),#extend,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#extend
+NavigableString() and .new_tag(),#navigablestring-and-new-tag,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigablestring-and-new-tag
+insert(),#insert,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#insert
+insert_before() and insert_after(),#insert-before-and-insert-after,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#insert-before-and-insert-after
+clear(),#clear,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#clear
+extract(),#extract,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#extract
+decompose(),#decompose,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#decompose
+replace_with(),#replace-with,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#replace-with
+wrap(),#wrap,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#wrap
+unwrap(),#unwrap,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#unwrap
+smooth(),#smooth,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#smooth
+Output,#output,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#output
+Pretty-printing,#pretty-printing,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#pretty-printing
+Non-pretty printing,#non-pretty-printing,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#non-pretty-printing
+Output formatters,#output-formatters,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#output-formatters
+Formatter objects,#formatter-objects,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#formatter-objects
+HTMLFormatter,#HTMLFormatter,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#HTMLFormatter
+XMLFormatter,#XMLFormatter,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#XMLFormatter
+Writing your own formatter,#writing-your-own-formatter,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#writing-your-own-formatter
+get_text(),#get-text,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#get-text
+Specifying the parser to use,#specifying-the-parser-to-use,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#specifying-the-parser-to-use
+Differences between parsers,#differences-between-parsers,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
+Encodings,#encodings,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#encodings
+Output encoding,#output-encoding,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#output-encoding
+"Unicode, Dammit",#unicode-dammit,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#unicode-dammit
+Smart quotes,#smart-quotes,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#smart-quotes
+Inconsistent encodings,#inconsistent-encodings,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#inconsistent-encodings
+Line numbers,#line-numbers,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#line-numbers
+Comparing objects for equality,#comparing-objects-for-equality,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#comparing-objects-for-equality
+Copying Beautiful Soup objects,#copying-beautiful-soup-objects,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#copying-beautiful-soup-objects
+Low-level search interface,#low-level-search-interface,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#low-level-search-interface
+Custom element filtering,#custom-element-filtering,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#custom-element-filtering
+ElementFilter,#ElementFilter,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter
+Custom element iteration,#custom-element-iteration,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#custom-element-iteration
+ElementFilter.filter(),#ElementFilter.filter,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#ElementFilter.filter
+Advanced parser customization,#advanced-parser-customization,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#advanced-parser-customization
+Parsing only part of a document,#parsing-only-part-of-a-document,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parsing-only-part-of-a-document
+SoupStrainer,#SoupStrainer,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#SoupStrainer
+Customizing multi-valued attributes,#customizing-multi-valued-attributes,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#customizing-multi-valued-attributes
+Handling duplicate attributes,#handling-duplicate-attributes,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#handling-duplicate-attributes
+Instantiating custom subclasses,#instantiating-custom-subclasses,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#instantiating-custom-subclasses
+Troubleshooting,#troubleshooting,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#troubleshooting
+diagnose(),#diagnose,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#diagnose
+Errors when parsing a document,#errors-when-parsing-a-document,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#errors-when-parsing-a-document
+Version mismatch problems,#version-mismatch-problems,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#version-mismatch-problems
+Parsing XML,#parsing-xml,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#parsing-xml
+Other parser problems,#other-parser-problems,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#other-parser-problems
+Miscellaneous,#miscellaneous,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#miscellaneous
+Improving Performance,#improving-performance,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#improving-performance
+Translating this documentation,#translating-this-documentation,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#translating-this-documentation
+Beautiful Soup 3,#id16,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id16
+Porting code to BS4,#porting-code-to-bs4,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#porting-code-to-bs4
+You need a parser,#you-need-a-parser,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#you-need-a-parser
+Property names,#property-names,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#property-names
+Generators,#generators,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#generators
+XML,#xml,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#xml
+Entities,#entities,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#entities
+Miscellaneous,#id17,internal_anchor,Table of Contents,https://www.crummy.com/software/BeautifulSoup/bs4/doc/#id17
