@@ -163,7 +163,7 @@ def analyze() -> dict:
     print("-" * 60)
 
     # 9. Additional Q1: Average line count of code examples and the section containing the longest code example
-    avg_lines = float(df_code["line_count"].mean())
+    avg_lines = float(np.mean(df_code["line_count"]))
     idx_longest_code = df_code["line_count"].idxmax()
     longest_code_row = df_code.loc[idx_longest_code]
     results["q9_code_line_stats"] = {

@@ -21,8 +21,7 @@ download the Beautiful Soup 4 source tarball,http://www.crummy.com/software/Beau
 ¶,#installing-a-parser,internal_anchor,Installing a parser ¶
 lxml parser,http://lxml.de/,external_link,Installing a parser ¶
 html5lib parser,http://code.google.com/p/html5lib/,external_link,Installing a parser ¶
-"Differences
-between parsers",#differences-between-parsers,internal_anchor,Installing a parser ¶
+Differences between parsers,#differences-between-parsers,internal_anchor,Installing a parser ¶
 ¶,#making-the-soup,internal_anchor,Making the soup ¶
 Parsing XML,#id15,internal_anchor,Making the soup ¶
 ¶,#kinds-of-objects,internal_anchor,Kinds of objects ¶
@@ -39,8 +38,7 @@ Searching the tree,#searching-the-tree,internal_anchor,Kinds of objects ¶
 ¶,#NavigableString,internal_anchor,Multi-valued attributes ¶
 NavigableString,#NavigableString,internal_anchor,Multi-valued attributes ¶
 NavigableString,#NavigableString,internal_anchor,Multi-valued attributes ¶
-"Navigating
-the tree",#navigating-the-tree,internal_anchor,Multi-valued attributes ¶
+Navigating the tree,#navigating-the-tree,internal_anchor,Multi-valued attributes ¶
 Searching the tree,#searching-the-tree,internal_anchor,Multi-valued attributes ¶
 NavigableString,#NavigableString,internal_anchor,Multi-valued attributes ¶
 replace_with(),#replace-with,internal_anchor,Multi-valued attributes ¶
@@ -79,8 +77,7 @@ NavigableString,#NavigableString,internal_anchor,For XML documents ¶
 declaration,https://www.w3.org/TR/REC-xml/#sec-prolog-dtd,external_link,For XML documents ¶
 ¶,#Doctype,internal_anchor,For XML documents ¶
 NavigableString,#NavigableString,internal_anchor,For XML documents ¶
-"document type
-declaration",https://www.w3.org/TR/REC-xml/#dt-doctype,external_link,For XML documents ¶
+document type declaration,https://www.w3.org/TR/REC-xml/#dt-doctype,external_link,For XML documents ¶
 ¶,#CData,internal_anchor,For XML documents ¶
 NavigableString,#NavigableString,internal_anchor,For XML documents ¶
 CData section,https://www.w3.org/TR/REC-xml/#sec-cdata-sect,external_link,For XML documents ¶
@@ -125,13 +122,11 @@ limit,#limit,internal_anchor,find_all() ¶
 Kinds of filters,#kinds-of-filters,internal_anchor,find_all() ¶
 ¶,#the-name-argument,internal_anchor,The name argument ¶
 Kinds of filters,#kinds-of-filters,internal_anchor,The name argument ¶
-"a
-string",#a-string,internal_anchor,The name argument ¶
+a string,#a-string,internal_anchor,The name argument ¶
 a regular expression,#a-regular-expression,internal_anchor,The name argument ¶
 a list,#a-list,internal_anchor,The name argument ¶
 a function,#a-function,internal_anchor,The name argument ¶
-"the value
-True",#the-value-true,internal_anchor,The name argument ¶
+the value True,#the-value-true,internal_anchor,The name argument ¶
 ¶,#the-keyword-arguments,internal_anchor,The keyword arguments ¶
 a string,#a-string,internal_anchor,The keyword arguments ¶
 a regular expression,#a-regular-expression,internal_anchor,The keyword arguments ¶
@@ -143,8 +138,7 @@ Remember,#multivalue,internal_anchor,Searching by CSS class ¶
 described here,#css-selectors,internal_anchor,Searching by CSS class ¶
 ¶,#the-string-argument,internal_anchor,The string argument ¶
 a string,#a-string,internal_anchor,The string argument ¶
-"a
-regular expression",#a-regular-expression,internal_anchor,The string argument ¶
+a regular expression,#a-regular-expression,internal_anchor,The string argument ¶
 a function,#a-function,internal_anchor,The string argument ¶
 a list,#a-list,internal_anchor,The string argument ¶
 the value True,#the-value-true,internal_anchor,The string argument ¶
@@ -158,8 +152,7 @@ attrs,#attrs,internal_anchor,find() ¶
 recursive,#recursive,internal_anchor,find() ¶
 string,#id11,internal_anchor,find() ¶
 **kwargs,#kwargs,internal_anchor,find() ¶
-"Navigating using tag
-names",#navigating-using-tag-names,internal_anchor,find() ¶
+Navigating using tag names,#navigating-using-tag-names,internal_anchor,find() ¶
 ¶,#find-parents-and-find-parent,internal_anchor,find_parents() and find_parent() ¶
 name,#name,internal_anchor,find_parents() and find_parent() ¶
 attrs,#attrs,internal_anchor,find_parents() and find_parent() ¶
@@ -221,13 +214,11 @@ document order,#document-order,internal_anchor,find_all_previous() and find_prev
 ¶,#css-selectors-through-the-css-property,internal_anchor,CSS selectors through the .css property ¶
 Tag,#Tag,internal_anchor,CSS selectors through the .css property ¶
 Soup Sieve,https://facelessuser.github.io/soupsieve/,external_link,CSS selectors through the .css property ¶
-"all the currently supported CSS
-selectors",https://facelessuser.github.io/soupsieve/selectors/,external_link,CSS selectors through the .css property ¶
+all the currently supported CSS selectors,https://facelessuser.github.io/soupsieve/selectors/,external_link,CSS selectors through the .css property ¶
 Tag,#Tag,internal_anchor,CSS selectors through the .css property ¶
 ¶,#advanced-soup-sieve-features,internal_anchor,Advanced Soup Sieve features ¶
 Tag,#Tag,internal_anchor,Advanced Soup Sieve features ¶
-"the Soup Sieve
-documentation",https://facelessuser.github.io/soupsieve/,external_link,Advanced Soup Sieve features ¶
+the Soup Sieve documentation,https://facelessuser.github.io/soupsieve/,external_link,Advanced Soup Sieve features ¶
 Tag,#Tag,internal_anchor,Advanced Soup Sieve features ¶
 Tag,#Tag,internal_anchor,Advanced Soup Sieve features ¶
 ¶,#namespaces-in-css-selectors,internal_anchor,Namespaces in CSS selectors ¶
@@ -351,8 +342,7 @@ Differences between parsers,#differences-between-parsers,internal_anchor,Other p
 HTML tags and attributes are case-insensitive,http://www.w3.org/TR/html5/syntax.html#syntax,external_link,Other parser problems ¶
 parse the document as XML.,#parsing-xml,internal_anchor,Other parser problems ¶
 ¶,#miscellaneous,internal_anchor,Miscellaneous ¶
-"this page on the
-Python wiki",http://wiki.python.org/moin/PrintFails,external_link,Miscellaneous ¶
+this page on the Python wiki,http://wiki.python.org/moin/PrintFails,external_link,Miscellaneous ¶
 ¶,#improving-performance,internal_anchor,Improving Performance ¶
 lxml,http://lxml.de/,external_link,Improving Performance ¶
 start,#parser-installation,internal_anchor,Improving Performance ¶
@@ -370,8 +360,7 @@ Installing a parser,#installing-a-parser,internal_anchor,You need a parser ¶
 ¶,#generators,internal_anchor,Generators ¶
 ¶,#xml,internal_anchor,XML ¶
 ¶,#entities,internal_anchor,Entities ¶
-"Unicode,
-Dammit",#unicode-dammit,internal_anchor,Entities ¶
+"Unicode, Dammit",#unicode-dammit,internal_anchor,Entities ¶
 output formatter,#output-formatters,internal_anchor,Entities ¶
 ¶,#id17,internal_anchor,Miscellaneous ¶
 Tag.string,#string,internal_anchor,Miscellaneous ¶
