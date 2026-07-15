@@ -17,10 +17,13 @@ PROCESSED_DIR = Path("data/processed")
 
 
 def clean_text(text: str | None) -> str:
-    """Collapse extra whitespace and newlines into single spaces."""
+    """Collapse extra whitespace and remove special characters."""
     if text is None:
         return ""
-    return re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s+", " ", text)
+    # Remove pilcrow sign (¶) and other special Unicode characters
+    text = re.sub(r"[\u00b6\u00a7\u00b2\u00b3\u00bc-\u00be\u00a0]", "", text)
+    return text.strip()
 
 
 def get_closest_section_title(element: BeautifulSoup) -> str:

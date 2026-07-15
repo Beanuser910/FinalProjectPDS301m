@@ -1,6 +1,6 @@
 # BeautifulSoup Documentation Analytics — Final Report
 
-**Generated:** 2026-07-13 12:46
+**Generated:** 2026-07-15 16:42
 **Target URL:** https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 ---
@@ -51,7 +51,7 @@ Download HTML → Parse with BeautifulSoup → Extract Sections / Links / Code
 |--------|-------|
 | Total sections | 113 |
 | Section levels | h1, h2, h3 |
-| Average word count | 363.3 |
+| Average word count | 361.8 |
 | Total code blocks | 1751 |
 | Total links in sections | 804 |
 
@@ -84,8 +84,8 @@ Download HTML → Parse with BeautifulSoup → Extract Sections / Links / Code
 | # | Question | Answer |
 |---|----------|--------|
 | Q1 | How many sections are in the documentation? | 113 |
-| Q2 | Which section has the highest word count? | "Searching the tree ¶" (4711 words) |
-| Q3 | Which section contains the most code examples? | "Searching the tree ¶" (208 blocks) |
+| Q2 | Which section has the highest word count? | "Searching the tree" (4687 words) |
+| Q3 | Which section contains the most code examples? | "Searching the tree" (208 blocks) |
 | Q4 | Which section contains the most links? | "Table of Contents" (127 links) |
 | Q6 | How many internal and external links? | Internal: 470, Doc: 15, External: 17 |
 | Q7 | Code examples using `find_all()`? | 41 |
@@ -110,15 +110,15 @@ Download HTML → Parse with BeautifulSoup → Extract Sections / Links / Code
 
 **Q9: Code line statistics**
 - Average lines per code example: 6.34
-- Longest code example: "Parsing only part of a document ¶" (37 lines)
+- Longest code example: "Parsing only part of a document" (37 lines)
 
 **Q10: Statistics by heading level**
 
 | Level | Avg Word Count | Avg Code Blocks | Avg Links |
 |-------|---------------|-----------------|-----------|
-| H1 | 1011.2 | 40.9 | 18.6 |
-| H2 | 295.7 | 12.0 | 4.8 |
-| H3 | 153.8 | 8.3 | 4.7 |
+| H1 | 1005.5 | 40.9 | 18.6 |
+| H2 | 294.7 | 12.0 | 4.8 |
+| H3 | 153.6 | 8.3 | 4.7 |
 
 ---
 
@@ -150,9 +150,9 @@ and saved to `output/charts/`.
 1. The BeautifulSoup documentation contains **113 sections**
    across h1, h2, and h3 heading levels.
 2. The section with the most content is
-   **"Searching the tree ¶"**
-   with 4711 words.
-3. **"Searching the tree ¶"** has the most code examples
+   **"Searching the tree"**
+   with 4687 words.
+3. **"Searching the tree"** has the most code examples
    (208 blocks), making it the
    most code-heavy section.
 4. **"Table of Contents"** contains the most links
@@ -169,7 +169,7 @@ and saved to `output/charts/`.
    most demonstrated BeautifulSoup APIs.
 8. The average code example is 6.3 lines long,
    with the longest at 37 lines in
-   "Parsing only part of a document ¶".
+   "Parsing only part of a document".
 
 ---
 
